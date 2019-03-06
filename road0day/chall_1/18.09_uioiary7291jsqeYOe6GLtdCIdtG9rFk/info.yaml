@@ -1,0 +1,40 @@
+rode0day_id: 3
+
+challenges:
+    grepB:
+        challenge_id: 11 
+        architecture: "x86"
+        install_dir: "grepb"
+        binary_path: "bin/grep"
+        binary_arguments: "'\\(.\\).\\(.\\)' {input_file}"
+        sample_inputs: ["inputs/hi.txt"]
+        source_provided: false
+
+    grepS:
+        challenge_id: 12 
+        architecture: "x86"
+        install_dir: "greps"
+        binary_path: "built/bin/grep"
+        binary_arguments: "'\\(.\\).\\(.\\)' {input_file}"
+        sample_inputs: ["inputs/hi.txt"]
+        source_provided: true
+        source_path: "src"
+
+    jpegB:
+        challenge_id: 13 
+        architecture: "x86"
+        install_dir: "jpegb"
+        binary_path: "bin/memdjpeg"
+        binary_arguments: "{input_file}"
+        sample_inputs: ["inputs/logo.jpg", "inputs/rodeo.jpg"]
+        source_provided: false
+
+    jpegS:
+        challenge_id: 14 
+        architecture: "x86"
+        install_dir: "jpegs"
+        binary_path: "built/bin/memdjpeg"
+        binary_arguments: "{input_file}"
+        sample_inputs: ["inputs/logo.jpg", "inputs/rodeo.jpg"]
+        source_provided: true
+        source_path: "src"

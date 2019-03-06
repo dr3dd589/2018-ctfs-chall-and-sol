@@ -1,0 +1,5 @@
+catch syscall read
+  commands
+    set breakpoint
+  end
+

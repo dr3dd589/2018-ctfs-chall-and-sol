@@ -1,0 +1,8 @@
+cat /dev/urandom | strace ./main a b c d e f |& cut -d\( -f1
+
+
+catch syscall ptrace
+commands 1
+set ($eax) = 0
+continue
+end

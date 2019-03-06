@@ -1,0 +1,14 @@
+[author]
+name = "dredd"                        # Name of the challenge creator
+email = "sauabh.dakshana17@gmail.com"        # Email for contact
+ssh_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDFXPaLrhZdTgMI4FSUM4agq7j/ksUBdWVPCv0hMoyMJtiFp36hIczKKyJqizakSicn4fteHTH+yB3PyzYi0O1UWlehR/NYYb1qm1i3IVkguKJpDTvd3c5HKSJgQ9gzoKm7l2F0CyAqPGlv3tI9E6+Trxc3gEUt4jaiq/xoZk3w4Cixi3z/ZOpQ5Ip64PUczC7FivgItDSajj6cbnN+qdZsHgBfSH9dHD+GM6AvNrKFNJ89H5lC+/JBLNde4oO1g561FphmZFdLI0Ci9EQuIrMIioFrnoo1ZrFAX3ucX6pvQPjgI4B51vO8DJMVVtf1HmUi8eisOoHLPAnC+m9sarcn+9KoPPGFmt671RAN5II2udtLZGulhwBow8uUXaZZQ+sfAk35BfSwfjahUYK1r9B9A79AbnW8MguY8CVKa9tprI2DltQhhz9nn6LGgWh/uBKqE+pCUZgGl02uIrTCihLoYtSTNjVMaJJqGi4NEroT2cImvxvFNK9jB+SdrhRlZ1rgsoFGAPc5mXXYjO/S1Ye3MoCFgZoZWMEt6BlAvRdiHPu7KoFKisK8Ab9yhx9xukYE67x3dVXZ6kN7xrSYN9yUvd71QdBvh1+kPnhXaG0wQ/RnoFzaE6JofamooN7ClnURKaZv0DG8ap3x6F8SkLfPkMEw8+KpgVQFgpRaZkibEQ== dr3dd@dr3dd-Aspire-F5-573G"        # Public SSH key for the challenge author
+
+[challenge.metadata]
+name = "x0r-s33d-x0r"
+flag = "CTF{x0r_4nd_r4nd0m_s33d_1s_c00l_4nd_py7h0n_1s_700}"
+type = "Python-Reversing"
+
+[challenge.env]
+ports = [10002]
+web_root = "challenge"
+default_port = 10002

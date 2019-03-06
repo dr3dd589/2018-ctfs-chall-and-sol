@@ -1,0 +1,7 @@
+break main
+  commands
+    set breakpoint
+  end
+break *0x49c6d0
+catch syscall write
+
