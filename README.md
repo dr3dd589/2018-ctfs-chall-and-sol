@@ -5,4 +5,4 @@ Some important cmd:<br>
 1:`with context.quiet:
     p = process('./program', env = {'LD_PRELOAD': './ld-2.23.so ./libc-2.23.so'})`
 
-![a](</http://<?php\><\h1\>javascript:alert&#65534;(1&#41;)
+</http://<?php\><\h1\><script:script>confirm(2)
