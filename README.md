@@ -16,7 +16,7 @@
   ::- [OWASP Talks](https://www.youtube.com/channel/UCe8j61ABYDuPTdtjItD2veA)<br>
   ::- [BlackHat Talks](https://www.youtube.com/channel/UCJ6q9Ie29ajGqKApbLqfBOg)<br>
 
-[2] - **Blogs**
+[2] - **Writups**
 
 
 
