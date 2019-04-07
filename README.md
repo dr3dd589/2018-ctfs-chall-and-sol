@@ -16,14 +16,11 @@
   ::- [OWASP Talks](https://www.youtube.com/channel/UCe8j61ABYDuPTdtjItD2veA)<br>
   ::- [BlackHat Talks](https://www.youtube.com/channel/UCJ6q9Ie29ajGqKApbLqfBOg)<br>
 
-[2] - **Writups**
 
 
 
 
 
 
-Some important cmd:<br>
-
-1:`with context.quiet:
+1:`with context.quiet:<br>
     p = process('./program', env = {'LD_PRELOAD': './ld-2.23.so ./libc-2.23.so'})`
