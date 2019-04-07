@@ -40,7 +40,7 @@ log.info('Found key: {}'.format(key))
 if debug:
 	p = process('./activate {}'.format(key), shell=True)
 else:
-	s = ssh(host = '2018shell1.picoctf.com', user='dr3dd', password='yoyoman12345')
+	s = ssh(host = '2018shell1.picoctf.com', user='dr3dd', password='abcdefgh')
 	s.set_working_directory('/problems/keygen-me-2_0_ac2a45bc27456d666f2bbb6921829203')
 
 	p = s.process('./activate {}'.format(key), shell=True)
