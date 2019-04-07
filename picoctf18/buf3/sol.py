@@ -1,7 +1,7 @@
 # from pwn import *
 # import string
 
-# # s = ssh(host='2018shell1.picoctf.com',user='dr3dd',password='yoyoman12345')
+# # s = ssh(host='2018shell1.picoctf.com',user='dr3dd',password='')
 
 # # f = open('rockyou.txt','r')
 # # passd = f.read().split('\n')
@@ -34,7 +34,7 @@
 from pwn import *
 import string
 
-#s = ssh(host='2018shell1.picoctf.com',user='dr3dd',password='yoyoman12345')
+#s = ssh(host='2018shell1.picoctf.com',user='dr3dd',password='')
 
 # f = open('rockyou.txt','r')
 # passd = f.read().split('\n')
@@ -62,7 +62,7 @@ p.close()
 from pwn import *
 import string
 
-#s = ssh(host='2018shell1.picoctf.com',user='dr3dd',password='yoyoman12345')
+#s = ssh(host='2018shell1.picoctf.com',user='dr3dd',password='')
 
 # f = open('rockyou.txt','r')
 # passd = f.read().split('\n')
