@@ -20,7 +20,7 @@
 
 
 
-
-
-1:`with context.quiet:<br>
+```
+with context.quiet:
     p = process('./program', env = {'LD_PRELOAD': './ld-2.23.so ./libc-2.23.so'})`
+```
