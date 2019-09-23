@@ -21,6 +21,10 @@
 
 
 ```
-with context.quiet:
-    p = process('./program', env = {'LD_PRELOAD': './ld-2.23.so ./libc-2.23.so'})`
+from pwn import *
+
+context.terminal = ["terminator", "-e"]
+
+p = process(['./ld-2.23.so', './stkof'], env = {'LD_PRELOAD': '/home/dr3dd/practice/heap/libc-2.23.so'})
+
 ```
