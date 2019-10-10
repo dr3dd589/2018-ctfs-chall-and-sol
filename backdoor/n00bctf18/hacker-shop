@@ -1,4 +1,4 @@
-Main Hint is :
+Main Vuln is in this file :
 In checkout.php
     
     foreach ($_POST as $key => $value) {
